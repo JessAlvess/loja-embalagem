@@ -47,3 +47,13 @@
         }
       }
     }
+
+#dropdown-ordem a:hover {
+    background-color: black;
+    color: white;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 11px;
+}
