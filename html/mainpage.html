@@ -20,16 +20,16 @@
             <div class="container-fluid">
                 <div class="navbar-collapse ms-4" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
+                  <li class="nav-item item-do-navbar">
                     <a class="nav-link active  text-light" aria-current="page" href="#">Contato</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item item-do-navbar">
                     <a class="nav-link active  text-light" aria-current="page" href="https://api.whatsapp.com/send?phone=554134235800&text=Ol%C3%A1,%20como%20posso%20ajud%C3%A1-lo?" target="_blank">(41) 3423-5800</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item icone-navbar">
                     <a class="nav-link active" aria-current="page" href="https://api.whatsapp.com/send?phone=554134235800&text=Ol%C3%A1,%20como%20posso%20ajud%C3%A1-lo?" target="_blank"><img src="../images/icons8-whatsapp.svg" alt="Link para whatsapp" height="30"></a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item icone-navbar">
                     <a class="nav-link active" aria-current="page" href="https://www.instagram.com/embalagens.paranagua/" target="_blank"><img src="../images/icons8-instagram.svg" alt="Link para instagram" height="30"></a>
                   </li>
                 </ul>
@@ -51,11 +51,11 @@
                 <p>Sinônimo de Economia e Qualidade</p>
                 </div>
                 <div class="col offset-md-3">
-                    <button type="button" class="btn position-relative">
+                    <button type="button" class="btn position-relative active icone-cesta" id="cesta">
                         <img src="../images/icons8-cesta-80-branca.png" alt="Cesta de compras" height="50">
                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                             0
-                            <span class="visually-hidden">unread messages</span>
+                            <span class="visually-hidden">Quantidade de produtos</span>
                           </span>
                         </button>            
                 </div>
@@ -311,33 +311,40 @@
             </div>
 
         </section>
+       
+    </main>    
 
-    </main>
-
-    <hr>
-
-    <footer>
+    <footer class="container-fluid">
+      <hr>
 
       <div class="row row-cols-3 g-4 p-4 justify-content-center">
+        
         <div class="col">
           <h6>Sobre a loja</h6>
           <p>"Bem-vindo à nossa loja de embalagens em Paranaguá! Transformamos momentos especiais em memórias únicas com embalagens elegantes e práticas. Descubra o charme em cada detalhe conosco!"</p>
         </div>
+
         <div class="col">
           <h6>Conteúdo</h6>
-          <p>Fale conosco</p>
-          <p>Institucional</p>
-          <p>Política de privacidade</p>
-        </div>
-        <div class="col">
-          <h6>Atendimento</h6>
-          <p> Telefone: (41) 3423-5800</p>
-          <p> E-mail: embalagensparanagua@gmail.com.br</p>
-          <hr>
-          <p>Seg. a Sexta 9h00 às 18h00 - Sáb. 9h00 às 13h00</p>
-          <p>Endereço: R. Sete de Setembro, 21 - Centro Histórico, Paranaguá-PR, 83203-080</p>
+
+          <nav class="nav flex-column nav-underline">
+            <a class="nav-link" aria-current="page" href="https://api.whatsapp.com/send?phone=554134235800&text=Ol%C3%A1,%20como%20posso%20ajud%C3%A1-lo?" target="_blank">Fale conosco</a>
+            <a class="nav-link" href="#"_blank">Institucional</a>
+            <a class="nav-link" href="#">Política de privacidade</a>
+          </nav>
+
         </div>
 
+        <div class="col">
+          <h6>Atendimento</h6>
+          <nav class="nav flex-column nav-underline">
+            <a class="nav-link" aria-current="page" href="https://api.whatsapp.com/send?phone=554134235800&text=Ol%C3%A1,%20como%20posso%20ajud%C3%A1-lo?" target="_blank">Telefone: (41) 3423-5800</a>
+            <a class="nav-link" href="https://www.google.com.br/maps/place/R.+Sete+de+Setembro,+21+-+Centro+Hist%C3%B3rico,+Paranagu%C3%A1+-+PR,+83203-080/@-25.5211375,-48.5091277,17z/data=!3m1!4b1!4m6!3m5!1s0x94db9a428b5610a5:0xc3f147721ff5bee2!8m2!3d-25.5211375!4d-48.5065528!16s%2Fg%2F11c1683hyh?entry=ttu" target="_blank">Endereço: R. Sete de Setembro, 21 - Centro Histórico, Paranaguá-PR, 83203-080</a>
+            <hr>
+            <a class="nav-link disabled" href="#">E-mail: embalagensparanagua@gmail.com.br</a>
+            <a class="nav-link disabled" aria-disabled="true">Seg. a Sexta 9h00 às 18h00 - Sáb. 9h00 às 13h00</a>
+          </nav>
+        </div>
       </div>
       <hr>
         <p id="copyright">Embalagens Paranaguá ME - CNPJ: 00.000.000/0000 &copy Todos os direitos reservados. 2024</p>
