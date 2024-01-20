@@ -1,3 +1,35 @@
 #navbar-produtos {
     height: 20px;
 }
+
+#navbar-produtos  a:hover {
+  border-top: 2px solid white;
+
+}
+
+#dropdown-ordem a:hover {
+    background-color: black;
+    color: white;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 11px;
+}
+
+.item-do-navbar a:hover {
+    border-bottom: 2px solid white;
+}
+
+.icone-navbar:hover {
+  border-bottom: 2px solid white;
+}
+
+.icone-cesta:hover {
+  background-color: blue;
+}
+
+footer {
+  font-size: 15px;
+  background-color: rgb(238, 241, 243);
+}

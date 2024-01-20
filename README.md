@@ -5,6 +5,10 @@ O site será usado para implementar novas habilidades adquiridas durante o proce
 
 O projeto todo foi realizado de forma autoral e utilizando apenas as referências das documentações, sem utilizar cópias de outros sites ou desenvolvedores.
 
+## Contribuições
+
+Sinta-se a vontade para contribuir com o projeto, fazendo code reviews e comentando sobre novas implementações que contribuam para meu aprendizado.
+
 ## Funcionalidades
 
 * Realizado somente estruturação e estilização com framework bootstrap;
