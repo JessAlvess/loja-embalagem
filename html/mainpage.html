@@ -60,11 +60,10 @@
                 </div>
                 <hr>
         </section>
-
        
-            <nav class="navbar navbar-expand-lg bg-Egyptian-Blue">
+        <nav class="navbar navbar-expand-lg bg-Egyptian-Blue" id="navbar-produtos">
                 <div class="container-fluid">
-                  <div class="navbar-collapse justify-content-center" id="navbarNav">
+                  <div class="navbar-collapse justify-content-center mb-3" id="navbarNav">
                     <ul class="navbar-nav text-light">
                       <li class="nav-item">
                         <a class="nav-link text-light" aria-current="page" href="#">Sacolas</a>
@@ -90,15 +89,42 @@
                     </ul>
                   </div>
                 </div>
-              </nav>
+        </nav>
         
     </header>
     
     <main>
-        
 
-        <section class="bg-info">
-            <p>banners de propaganda e ofertas</p>
+        <section>
+          <div id="ads" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#ads" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#ads" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#ads" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="22000">
+                <video class="object-fit-cover d-block w-100"" autoplay muted loop width="1280" height="420
+                " > 
+                  <source src="../videos/video-propaganda.mp4" type="video/mp4"/>
+                </video>
+              </div>
+              <div class="carousel-item">
+                <img src="https://picsum.photos/1280/420?random=2&blur=2" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="https://picsum.photos/1280/420?random=3&blur=2" class="d-block w-100">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#ads" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#ads" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Próximo</span>
+            </button>
+          </div>
         </section>
 
         <section>
@@ -115,6 +141,7 @@
         <p>atendimento</p>
     </footer>
 
-    <script></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </body>
 </html>
