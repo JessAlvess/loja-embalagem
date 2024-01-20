@@ -1,354 +1,158 @@
-{
+  {
     "produtos": [
       {
         "id": 1,
-        "nome": "Arroz",
-        "categoria": "Alimentos",
+        "nome": "Caixa de Papelão Grande",
+        "descricao": "Caixa resistente para armazenamento e transporte",
         "preco": 5.99,
-        "quantidade": "1 kg"
+        "unidade_de_venda": "Por unidade"
       },
       {
         "id": 2,
-        "nome": "Feijão",
-        "categoria": "Alimentos",
-        "preco": 3.49,
-        "quantidade": "500 g"
+        "nome": "Fita Adesiva Transparente",
+        "descricao": "Rolo de fita adesiva para fechamento de caixas",
+        "preco": 2.49,
+        "unidade_de_venda": "Por rolo"
       },
       {
         "id": 3,
-        "nome": "Macarrão",
-        "categoria": "Alimentos",
-        "preco": 2.99,
-        "quantidade": "400 g"
+        "nome": "Saco Plástico Pequeno",
+        "descricao": "Pacote de sacos plásticos pequenos para embalagem",
+        "preco": 1.29,
+        "unidade_de_venda": "Por pacote"
       },
       {
         "id": 4,
-        "nome": "Leite",
-        "categoria": "Laticínios",
-        "preco": 2.89,
-        "quantidade": "1 litro"
+        "nome": "Envelopes de Papel Branco",
+        "descricao": "Envelopes brancos para correspondência ou documentos",
+        "preco": 3.49,
+        "unidade_de_venda": "Por unidade"
       },
       {
         "id": 5,
-        "nome": "Ovos",
-        "categoria": "Ovos e Laticínios",
-        "preco": 4.99,
-        "quantidade": "12 unidades"
+        "nome": "Embalagem de Alumínio Descartável",
+        "descricao": "Embalagem de alumínio descartável para alimentos",
+        "preco": 6.99,
+        "unidade_de_venda": "Por unidade"
       },
       {
         "id": 6,
-        "nome": "Frango",
-        "categoria": "Carnes",
-        "preco": 10.99,
-        "quantidade": "500 g"
+        "nome": "Papel de Seda Colorido",
+        "descricao": "Pacote de papel de seda colorido para decoração",
+        "preco": 1.99,
+        "unidade_de_venda": "Por pacote"
       },
       {
         "id": 7,
-        "nome": "Cenoura",
-        "categoria": "Vegetais",
-        "preco": 1.49,
-        "quantidade": "1 kg"
+        "nome": "Saco de Juta Pequeno",
+        "descricao": "Saco de juta pequeno para presentes ou brindes",
+        "preco": 4.79,
+        "unidade_de_venda": "Por unidade"
       },
       {
         "id": 8,
-        "nome": "Tomate",
-        "categoria": "Vegetais",
-        "preco": 2.99,
-        "quantidade": "1 kg"
+        "nome": "Caixa para Presente Luxo",
+        "descricao": "Caixa luxuosa para presentes especiais",
+        "preco": 8.99,
+        "unidade_de_venda": "Por unidade"
       },
       {
         "id": 9,
-        "nome": "Sabonete",
-        "categoria": "Higiene Pessoal",
-        "preco": 1.79,
-        "quantidade": "150 g"
+        "nome": "Fita Decorativa de Cetim",
+        "descricao": "Rolo de fita decorativa de cetim para embrulhos",
+        "preco": 3.29,
+        "unidade_de_venda": "Por rolo"
       },
       {
         "id": 10,
-        "nome": "Shampoo",
-        "categoria": "Higiene Pessoal",
-        "preco": 5.49,
-        "quantidade": "400 ml"
+        "nome": "Saco Plástico com Zíper",
+        "descricao": "Sacos plásticos com zíper para armazenamento",
+        "preco": 2.99,
+        "unidade_de_venda": "Por pacote"
       },
       {
         "id": 11,
-        "nome": "Papel Higiênico",
-        "categoria": "Limpeza",
+        "nome": "Embalagem de Papel Kraft",
+        "descricao": "Embalagem de papel Kraft para produtos naturais",
         "preco": 3.99,
-        "quantidade": "4 rolos"
+        "unidade_de_venda": "Por unidade"
       },
       {
         "id": 12,
-        "nome": "Detergente",
-        "categoria": "Limpeza",
-        "preco": 2.29,
-        "quantidade": "500 ml"
+        "nome": "Folha de Alumínio para Assar",
+        "descricao": "Folha de alumínio resistente para assar alimentos",
+        "preco": 4.49,
+        "unidade_de_venda": "Por rolo"
       },
       {
         "id": 13,
-        "nome": "Escova de Dentes",
-        "categoria": "Higiene Bucal",
-        "preco": 1.99,
-        "quantidade": "1 unidade"
+        "nome": "Saco Térmico para Delivery",
+        "descricao": "Saco térmico para entrega de alimentos quentes",
+        "preco": 7.99,
+        "unidade_de_venda": "Por unidade"
       },
       {
         "id": 14,
-        "nome": "Creme Dental",
-        "categoria": "Higiene Bucal",
-        "preco": 3.49,
-        "quantidade": "150 g"
+        "nome": "Papel Celofane Transparente",
+        "descricao": "Rolo de papel celofane transparente para embalagens",
+        "preco": 1.79,
+        "unidade_de_venda": "Por rolo"
       },
       {
         "id": 15,
-        "nome": "Amaciante de Roupas",
-        "categoria": "Lavanderia",
-        "preco": 4.99,
-        "quantidade": "1 litro"
+        "nome": "Cesto de Palha para Presente",
+        "descricao": "Cesto de palha natural para apresentação de presentes",
+        "preco": 5.49,
+        "unidade_de_venda": "Por unidade"
       },
       {
         "id": 16,
-        "nome": "Açúcar",
-        "categoria": "Alimentos",
-        "preco": 2.19,
-        "quantidade": "1 kg"
+        "nome": "Caixa de Plástico para Organização",
+        "descricao": "Caixa de plástico para organização de objetos",
+        "preco": 3.99,
+        "unidade_de_venda": "Por unidade"
       },
       {
         "id": 17,
-        "nome": "Café",
-        "categoria": "Bebidas",
-        "preco": 6.99,
-        "quantidade": "250 g"
+        "nome": "Fita de Papel para Fechamento",
+        "descricao": "Rolo de fita de papel para fechamento de pacotes",
+        "preco": 2.19,
+        "unidade_de_venda": "Por rolo"
       },
       {
         "id": 18,
-        "nome": "Biscoitos",
-        "categoria": "Snacks",
-        "preco": 3.79,
-        "quantidade": "200 g"
+        "nome": "Saco a Vácuo para Alimentos",
+        "descricao": "Sacos a vácuo para armazenamento de alimentos",
+        "preco": 9.99,
+        "unidade_de_venda": "Por pacote"
       },
       {
         "id": 19,
-        "nome": "Banana",
-        "categoria": "Frutas",
-        "preco": 1.99,
-        "quantidade": "1 kg"
+        "nome": "Papel de Embrulho Estampado",
+        "descricao": "Rolo de papel de embrulho estampado para presentes",
+        "preco": 4.29,
+        "unidade_de_venda": "Por rolo"
       },
       {
         "id": 20,
-        "nome": "Maçã",
-        "categoria": "Frutas",
-        "preco": 3.49,
-        "quantidade": "1 kg"
+        "nome": "Cesta de Papelão para Presente",
+        "descricao": "Cesta de papelão para apresentação de presentes",
+        "preco": 6.79,
+        "unidade_de_venda": "Por unidade"
       },
       {
         "id": 21,
-        "nome": "Sabão em Pó",
-        "categoria": "Limpeza",
-        "preco": 8.99,
-        "quantidade": "1 kg"
+        "nome": "Saco Plástico Biodegradável",
+        "descricao": "Saco plástico biodegradável para embalagens sustentáveis",
+        "preco": 2.69,
+        "unidade_de_venda": "Por pacote"
       },
       {
         "id": 22,
-        "nome": "Condicionador",
-        "categoria": "Higiene Pessoal",
-        "preco": 4.49,
-        "quantidade": "300 ml"
+        "nome": "Caixa de Madeira Artesanal",
+        "descricao": "Caixa de madeira artesanal para objetos decorativos",
+        "preco": 15.99,
+        "unidade_de_venda": "Por unidade"
       },
-      {
-        "id": 23,
-        "nome": "Molho de Tomate",
-        "categoria": "Molhos",
-        "preco": 2.59,
-        "quantidade": "500 g"
-      },
-      {
-        "id": 24,
-        "nome": "Queijo",
-        "categoria": "Laticínios",
-        "preco": 7.99,
-        "quantidade": "300 g"
-      },
-      {
-        "id": 25,
-        "nome": "Iogurte",
-        "categoria": "Laticínios",
-        "preco": 3.29,
-        "quantidade": "500 g"
-      },
-      {
-        "id": 26,
-        "nome": "Pão",
-        "categoria": "Padaria",
-        "preco": 2.49,
-        "quantidade": "500 g"
-      },
-      {
-        "id": 27,
-        "nome": "Presunto",
-        "categoria": "Frios",
-        "preco": 6.79,
-        "quantidade": "200 g"
-      },
-      {
-        "id": 28,
-        "nome": "Manteiga",
-        "categoria": "Laticínios",
-        "preco": 5.49,
-        "quantidade": "250 g"
-      },
-      {
-        "id": 29,
-        "nome": "Cerveja",
-        "categoria": "Bebidas",
-        "preco": 9.99,
-        "quantidade": "6 unidades"
-      },
-      {
-        "id": 30,
-        "nome": "Vinagre",
-        "categoria": "Condimentos",
-        "preco": 1.89,
-        "quantidade": "500 ml"
-      },
-      {
-        "id": 31,
-        "nome": "Azeite de Oliva",
-        "categoria": "Óleos",
-        "preco": 10.49,
-        "quantidade": "500 ml"
-      },
-      {
-        "id": 32,
-        "nome": "Salsicha",
-        "categoria": "Frios",
-        "preco": 4.99,
-        "quantidade": "300 g"
-      },
-      {
-        "id": 33,
-        "nome": "Refrigerante",
-        "categoria": "Bebidas",
-        "preco": 3.29,
-        "quantidade": "2 litros"
-      },
-      {
-        "id": 34,
-        "nome": "Laranja",
-        "categoria": "Frutas",
-        "preco": 2.99,
-        "quantidade": "1 kg"
-      },
-      {
-        "id": 35,
-        "nome": "Detergente Líquido",
-        "categoria": "Limpeza",
-        "preco": 2.79,
-        "quantidade": "500 ml"
-      },
-      {
-        "id": 36,
-        "nome": "Papel Toalha",
-        "categoria": "Limpeza",
-        "preco": 1.99,
-        "quantidade": "2 rolos"
-      },
-      {
-        "id": 37,
-        "nome": "Creme de Leite",
-        "categoria": "Laticínios",
-        "preco": 1.99,
-        "quantidade": "200 g"
-      },
-      {
-        "id": 38,
-        "nome": "Peito de Peru",
-        "categoria": "Frios",
-        "preco": 8.49,
-        "quantidade": "150 g"
-      },
-      {
-        "id": 39,
-        "nome": "Geléia",
-        "categoria": "Doces",
-        "preco": 3.59,
-        "quantidade": "250 g"
-      },
-      {
-        "id": 40,
-        "nome": "Cereal",
-        "categoria": "Cereais",
-        "preco": 4.79,
-        "quantidade": "300 g"
-      },
-      {
-        "id": 41,
-        "nome": "Pasta de Dentes",
-        "categoria": "Higiene Bucal",
-        "preco": 2.99,
-        "quantidade": "150 g"
-      },
-      {
-        "id": 42,
-        "nome": "Desodorante",
-        "categoria": "Higiene Pessoal",
-        "preco": 4.29,
-        "quantidade": "150 ml"
-      },
-      {
-        "id": 43,
-        "nome": "Papel Alumínio",
-        "categoria": "Utensílios de Cozinha",
-        "preco": 3.49,
-        "quantidade": "30 metros"
-      },
-      {
-        "id": 44,
-        "nome": "Sabão em Barra",
-        "categoria": "Limpeza",
-        "preco": 1.59,
-        "quantidade": "5 unidades"
-      },
-      {
-        "id": 45,
-        "nome": "Creme Hidratante",
-        "categoria": "Cuidados com a Pele",
-        "preco": 7.99,
-        "quantidade": "200 ml"
-      },
-      {
-        "id": 46,
-        "nome": "Maionese",
-        "categoria": "Condimentos",
-        "preco": 2.79,
-        "quantidade": "500 g"
-      },
-      {
-        "id": 47,
-        "nome": "Sal",
-        "categoria": "Condimentos",
-        "preco": 1.29,
-        "quantidade": "1 kg"
-      },
-      {
-        "id": 48,
-        "nome": "Fraldas",
-        "categoria": "Bebês",
-        "preco": 14.99,
-        "quantidade": "Pacote com 20 unidades"
-      },
-      {
-        "id": 49,
-        "nome": "Agua Mineral",
-        "categoria": "Bebidas",
-        "preco": 1.99,
-        "quantidade": "2 litros"
-      },
-      {
-        "id": 50,
-        "nome": "Enlatado de Milho",
-        "categoria": "Enlatados",
-        "preco": 2.49,
-        "quantidade": "300 g"
-      }
     ]
-  }
+    }
