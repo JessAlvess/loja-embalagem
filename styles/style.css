@@ -1,3 +1,6 @@
+body {
+  position: absolute;
+}
 #navbar-produtos {
     height: 20px;
 }
@@ -32,4 +35,15 @@
 footer {
   font-size: 15px;
   background-color: rgb(238, 241, 243);
+}
+
+#flutuante {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #092996;
+  &:hover {
+    background-color: rgb(45, 45, 255);
+  }
 }
