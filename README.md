@@ -1,5 +1,7 @@
 # Site Embalagens
 
+[Screenshot da página](./Design/Mainpage-v1.png)
+
 O principal objetivo deste projeto é proporcionar uma oportunidade para eu aprimorar habilidades na construção de uma aplicação web. Além disso, o projeto visa oferecer um contexto prático para explorar conceitos e tecnologias relacionadas ao desenvolvimento frontend e backend.
 O site será usado para implementar novas habilidades adquiridas durante o processo de aprendizagem.
 
