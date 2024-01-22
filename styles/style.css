@@ -47,3 +47,12 @@ footer {
     background-color: rgb(45, 45, 255);
   }
 }
+
+input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+}
+
+#link-header {
+  text-decoration: none;
+}
