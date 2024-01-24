@@ -3,12 +3,9 @@ async function inserirCards() {
 const response = await fetch("../produtos/lista.json");
 const listaJson = await response.json();
 const lista = listaJson.produtos;
-<<<<<<< HEAD
-let row = document.querySelector("#cardsRow");
-=======
 
-    let row = document.querySelector("#cardsRow");
->>>>>>> 02134f336f3a30fb74bd5631579b5f00f72a75c1
+let row = document.querySelector("#cardsRow");
+
 
 for (let index = 0; index < lista.length; index += 1) {
    
