@@ -1,6 +1,6 @@
 # Site Embalagens
 
-[Screenshot da página](./Design/Mainpage-v1.png)
+[Link para o site](https://app.netlify.com/sites/chimerical-fenglisu-ddd01a/deploys/65b12a83adc8ff0008258c2e)
 
 O principal objetivo deste projeto é proporcionar uma oportunidade para eu aprimorar habilidades na construção de uma aplicação web. Além disso, o projeto visa oferecer um contexto prático para explorar conceitos e tecnologias relacionadas ao desenvolvimento frontend e backend.
 O site será usado para implementar novas habilidades adquiridas durante o processo de aprendizagem.
