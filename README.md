@@ -11,7 +11,9 @@ Sinta-se a vontade para contribuir com o projeto, fazendo code reviews e comenta
 
 ## Funcionalidades
 
-* Realizado somente estruturação e estilização com framework bootstrap;
+* Realizado estruturação e estilização com framework bootstrap;
+
+* Realizado a listagem dinâmica da lista de produtos com base no arquivo JSON;
 
 ## 🛠️ Tecnologias
 
